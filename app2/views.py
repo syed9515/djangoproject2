@@ -1,3 +1,6 @@
+from django.http import HttpResponse
+
 from django.shortcuts import render
 
-# Create your views here.
+def Company_p(request):
+    return render(request,"practicecompany.html")
